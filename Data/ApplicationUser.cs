@@ -9,6 +9,6 @@ namespace ASPMMA.Data
 
  
         public ICollection<Order> Orders { get; set; }
-        public ShoppingCart ShoppingCarts { get; set; }
+        public ICollection<ShoppingCart> ShoppingCarts { get; set; }
     }
 }
