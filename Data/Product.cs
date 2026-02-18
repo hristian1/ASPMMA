@@ -17,6 +17,8 @@
         public int CategoryId { get; set; }
         public Category Categorys { get; set; }
         public DateTime CreatedAt { get; set; }
+        public int ShoppingCartId { get; set; } 
+        public ShoppingCart ShoppingCarts { get; set; }
 
  
     }

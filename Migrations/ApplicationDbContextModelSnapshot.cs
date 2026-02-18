@@ -4,23 +4,20 @@ using ASPMMA.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ASPMMA.Data.Migrations
+namespace ASPMMA.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260210121506_second")]
-    partial class second
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.10")
+                .HasAnnotation("ProductVersion", "9.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -69,6 +66,9 @@ namespace ASPMMA.Data.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Phone")
+                        .HasColumnType("int");
+
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
@@ -82,6 +82,7 @@ namespace ASPMMA.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
+                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -116,7 +117,7 @@ namespace ASPMMA.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("categories");
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.Order", b =>
@@ -133,6 +134,9 @@ namespace ASPMMA.Data.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("OrderStatusId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
@@ -144,69 +148,9 @@ namespace ASPMMA.Data.Migrations
 
                     b.HasIndex("ApplicationUserId");
 
-                    b.ToTable("orders");
-                });
+                    b.HasIndex("OrderStatusId");
 
-            modelBuilder.Entity("ASPMMA.Data.OrderHistory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("ChangeDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderStatusesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StatusId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("OrderStatusesId");
-
-                    b.ToTable("orderHistories");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.OrderItem", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("orderItems");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.OrderStatus", b =>
@@ -217,13 +161,17 @@ namespace ASPMMA.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("StatusName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("orderStatuses");
+                    b.ToTable("OrderStatuses");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.Product", b =>
@@ -255,6 +203,9 @@ namespace ASPMMA.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("ShoppingCartId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Size")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -266,7 +217,9 @@ namespace ASPMMA.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("products");
+                    b.HasIndex("ShoppingCartId");
+
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.ShoppingCart", b =>
@@ -279,43 +232,26 @@ namespace ASPMMA.Data.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("shoppingCarts");
+                    b.ToTable("ShoppingCarts");
                 });
 
-            modelBuilder.Entity("ASPMMA.Data.ShoppingCartItem", b =>
+            modelBuilder.Entity("ApplicationUserShoppingCart", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<string>("ApplicationUsersId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ShoppingCartsId")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.HasKey("ApplicationUsersId", "ShoppingCartsId");
 
-                    b.Property<DateTime>("AddedOn")
-                        .HasColumnType("datetime2");
+                    b.HasIndex("ShoppingCartsId");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ShoppingCartId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("ShoppingCartId");
-
-                    b.ToTable("shoppingCartItems");
+                    b.ToTable("ApplicationUserShoppingCart");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -460,44 +396,14 @@ namespace ASPMMA.Data.Migrations
                     b.HasOne("ASPMMA.Data.ApplicationUser", null)
                         .WithMany("Orders")
                         .HasForeignKey("ApplicationUserId");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.OrderHistory", b =>
-                {
-                    b.HasOne("ASPMMA.Data.Order", "Orders")
-                        .WithMany("OrderHistories")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.HasOne("ASPMMA.Data.OrderStatus", "OrderStatuses")
-                        .WithMany()
-                        .HasForeignKey("OrderStatusesId")
+                        .WithMany("Orders")
+                        .HasForeignKey("OrderStatusId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("OrderStatuses");
-
-                    b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.OrderItem", b =>
-                {
-                    b.HasOne("ASPMMA.Data.Order", "Order")
-                        .WithMany("OrderItems")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ASPMMA.Data.Product", "Product")
-                        .WithMany("OrderItems")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Order");
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.Product", b =>
@@ -508,37 +414,30 @@ namespace ASPMMA.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Categorys");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.ShoppingCart", b =>
-                {
-                    b.HasOne("ASPMMA.Data.ApplicationUser", "User")
-                        .WithOne("ShoppingCarts")
-                        .HasForeignKey("ASPMMA.Data.ShoppingCart", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.ShoppingCartItem", b =>
-                {
-                    b.HasOne("ASPMMA.Data.Product", "Products")
-                        .WithMany("ShoppingCartItems")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("ASPMMA.Data.ShoppingCart", "ShoppingCarts")
-                        .WithMany("Items")
+                        .WithMany("Products")
                         .HasForeignKey("ShoppingCartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Products");
+                    b.Navigation("Categorys");
 
                     b.Navigation("ShoppingCarts");
+                });
+
+            modelBuilder.Entity("ApplicationUserShoppingCart", b =>
+                {
+                    b.HasOne("ASPMMA.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("ApplicationUsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ASPMMA.Data.ShoppingCart", null)
+                        .WithMany()
+                        .HasForeignKey("ShoppingCartsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -595,9 +494,6 @@ namespace ASPMMA.Data.Migrations
             modelBuilder.Entity("ASPMMA.Data.ApplicationUser", b =>
                 {
                     b.Navigation("Orders");
-
-                    b.Navigation("ShoppingCarts")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("ASPMMA.Data.Category", b =>
@@ -605,23 +501,14 @@ namespace ASPMMA.Data.Migrations
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("ASPMMA.Data.Order", b =>
+            modelBuilder.Entity("ASPMMA.Data.OrderStatus", b =>
                 {
-                    b.Navigation("OrderHistories");
-
-                    b.Navigation("OrderItems");
-                });
-
-            modelBuilder.Entity("ASPMMA.Data.Product", b =>
-                {
-                    b.Navigation("OrderItems");
-
-                    b.Navigation("ShoppingCartItems");
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("ASPMMA.Data.ShoppingCart", b =>
                 {
-                    b.Navigation("Items");
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
