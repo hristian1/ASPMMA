@@ -17,7 +17,7 @@ namespace ASPMMA
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<ApplicationDbContext>();//add roles
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
