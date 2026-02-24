@@ -71,8 +71,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
             public string LastName { get; set; }
 
             [Required]
-            [Phone]
-            [Display(Name = " Phone")]
+            [Display(Name = "Phone")]
             public int Phone { get; set; }
 
             [Required]

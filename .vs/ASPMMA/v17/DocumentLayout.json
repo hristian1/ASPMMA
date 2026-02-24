@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +31,8 @@
       "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,33 +42,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationBuilderExtension.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
               "RelativeDocumentMoniker": "Services\\ApplicationBuilderExtension.cs",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
               "RelativeToolTip": "Services\\ApplicationBuilderExtension.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T12:05:59.294Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
-              "RelativeDocumentMoniker": "Data\\Order.cs",
-              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
-              "RelativeToolTip": "Data\\Order.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:07:25.381Z",
               "EditorCaption": ""
             },
             {
@@ -85,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\Order.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
+              "RelativeToolTip": "Data\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T12:07:25.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Product.cs",
               "RelativeDocumentMoniker": "Data\\Product.cs",
@@ -93,12 +85,11 @@
               "RelativeToolTip": "Data\\Product.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:07:22.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T12:07:22.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -110,76 +101,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwH4AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwEkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:02:21.593Z"
+              "WhenOpened": "2026-02-16T11:02:21.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAwA8AAACGAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwA8AAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T11:00:10.288Z"
+              "WhenOpened": "2026-02-16T11:00:10.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:59:54.761Z"
+              "WhenOpened": "2026-02-16T10:59:54.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T10:48:48.984Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:36:43.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:30:49.778Z"
             }
           ]
         }

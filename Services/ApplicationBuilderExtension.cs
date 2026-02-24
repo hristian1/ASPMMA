@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 
 
-namespace ASPShopBag.Services
+namespace ASPMMA.Services
 {
     public static class ApplicationBuilderExtension
     {
