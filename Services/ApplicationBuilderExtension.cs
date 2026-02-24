@@ -1,4 +1,5 @@
 ﻿
+using ASPMMA;
 using ASPMMA.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
@@ -48,15 +49,15 @@ namespace ASPShopBag.Services
                 await roleManager.CreateAsync(new IdentityRole("Guest"));
             }
 
-            public static async Task SeedSuperAdminAsync(UserManager<Customer> userManager)
+            public static async Task SeedSuperAdminAsync(UserManager<ApplicationUser> userManager)
             {
                 //Seed Default User
-                var defaultUser = new Customer
+                var defaultUser = new ApplicationUser
                 {
                     UserName = "superadmin",
                     Email = "superadmin@gmail.com",
-                    FirstName = "Tonya",
-                    LastName = "Belezireva",
+                    FirstName = "ivan",
+                    LastName = "ivanov",
                     PhoneNumber = "0899999999",
                     EmailConfirmed = true,
                     PhoneNumberConfirmed = true

@@ -3,15 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1212-11\\Downloads\\ApplicationBuilderExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\diplomen\\aspmma\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,41 +50,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T12:05:59.294Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\Order.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Order.cs",
+              "RelativeToolTip": "Data\\Order.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T12:07:25.381Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationBuilderExtension.cs",
-              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
-              "RelativeDocumentMoniker": "Services\\ApplicationBuilderExtension.cs",
-              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Services\\ApplicationBuilderExtension.cs",
-              "RelativeToolTip": "Services\\ApplicationBuilderExtension.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDIAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T11:09:12.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationBuilderExtension.cs",
-              "DocumentMoniker": "C:\\Users\\1212-11\\Downloads\\ApplicationBuilderExtension.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ApplicationBuilderExtension.cs",
-              "ToolTip": "C:\\Users\\1212-11\\Downloads\\ApplicationBuilderExtension.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ApplicationBuilderExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "Data\\Product.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Data\\Product.cs",
+              "RelativeToolTip": "Data\\Product.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T11:07:30.613Z",
+              "WhenOpened": "2026-02-24T12:07:22.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -87,12 +106,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T11:03:21.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T11:03:21.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -100,12 +118,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAQwH4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:02:21.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T11:02:21.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -113,12 +130,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAADoAAAAAAAAAAAAAwA8AAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T11:00:10.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T11:00:10.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -126,25 +142,24 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:59:54.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T10:59:54.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T10:48:48.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -152,12 +167,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:36:43.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T10:36:43.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\Diplomen\\ASPMMA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -165,8 +179,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:30:49.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T10:30:49.778Z"
             }
           ]
         }

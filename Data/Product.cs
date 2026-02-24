@@ -20,6 +20,9 @@
         public int ShoppingCartId { get; set; } 
         public ShoppingCart ShoppingCarts { get; set; }
 
+        public int OrderId { get; set; }
+        public Order Orders { get; set; }
+
  
     }
 }
