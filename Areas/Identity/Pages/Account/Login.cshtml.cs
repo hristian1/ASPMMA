@@ -47,8 +47,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
         public class InputModel
         {
            
-            [Required]
-           
+            [Required]           
             public string UserName { get; set; }
 
            

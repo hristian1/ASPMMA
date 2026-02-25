@@ -70,9 +70,9 @@ namespace ASPMMA.Areas.Identity.Pages.Account
             [Display(Name = " LastName")]
             public string LastName { get; set; }
 
-            [Required]
-            [Display(Name = "Phone")]
-            public int Phone { get; set; }
+            //[Required]
+            //[Display(Name = "Phone")]
+            //public int Phone { get; set; }
 
             [Required]
             [EmailAddress]
@@ -113,7 +113,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
                 user.UserName = Input.UserName;
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
-                user.Phone = Input.Phone;
+                
 
 
                 await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
