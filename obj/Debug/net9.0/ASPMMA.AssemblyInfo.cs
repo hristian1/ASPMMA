@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPMMA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8543c7401d519a52a2a32678df648d329388a9d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5638d4269271a78de5044a69218ee40128f6570d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPMMA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPMMA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
