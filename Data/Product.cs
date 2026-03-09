@@ -1,4 +1,6 @@
-﻿namespace ASPMMA.Data
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ASPMMA.Data
 {
     public class Product
     {
@@ -8,6 +10,7 @@
         public string Description { get; set; }
         public string Size { get; set; }
 
+        [Column(TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
 

@@ -62,6 +62,7 @@ namespace ASPMMA.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Size,Price,StockQuantity,ImageUrl,CategoryId,CreatedAt,ShoppingCartId,OrderId")] Product product)
         {
+            product.CreatedAt = DateTime.Now;
             if (ModelState.IsValid)
             {
                 _context.Add(product);
@@ -77,6 +78,7 @@ namespace ASPMMA.Controllers
         // GET: Products/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            
             if (id == null)
             {
                 return NotFound();
@@ -104,7 +106,7 @@ namespace ASPMMA.Controllers
             {
                 return NotFound();
             }
-
+            product.CreatedAt = DateTime.Now;
             if (ModelState.IsValid)
             {
                 try

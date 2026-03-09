@@ -47,7 +47,7 @@ namespace ASPMMA.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
-            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id");
+            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "StatusName");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace ASPMMA.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id", order.OrderStatusId);
+            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "StatusName", order.OrderStatusId);
             return View(order);
         }
 
@@ -81,7 +81,7 @@ namespace ASPMMA.Controllers
             {
                 return NotFound();
             }
-            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id", order.OrderStatusId);
+            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "StatusName", order.OrderStatusId);
             return View(order);
         }
 
@@ -117,7 +117,7 @@ namespace ASPMMA.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id", order.OrderStatusId);
+            ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "StatusName", order.OrderStatusId);
             return View(order);
         }
 
